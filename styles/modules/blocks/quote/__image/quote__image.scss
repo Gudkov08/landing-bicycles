@@ -1,0 +1,14 @@
+.quote__image {
+  @include sizes(650px, 460px);
+  background: url(../images/image-second.jpg) no-repeat;
+  background-size: 100% 460px;
+
+  @include media_780 {
+    width: 100%;
+  }
+
+  @include media_480 {
+    height: 204px;
+    background-size: 100% 204px;
+  }
+}

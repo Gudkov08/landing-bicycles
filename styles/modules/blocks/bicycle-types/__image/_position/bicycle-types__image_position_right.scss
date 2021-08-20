@@ -1,0 +1,9 @@
+.bicycle-types__image_position_right {
+  grid-area: img2;
+  background-image: url(../images/gravel.jpg);
+  background-size: 630px 400px;
+
+  @include media_780 {
+    display: none;
+  }
+}

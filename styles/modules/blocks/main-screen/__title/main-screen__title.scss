@@ -1,0 +1,14 @@
+.main-screen__title {
+  margin-top: 64px;
+
+  @include media_780 {
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  @include media_480 {
+    text-align: left;
+    margin: 0;
+  }
+}

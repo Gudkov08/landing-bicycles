@@ -1,0 +1,9 @@
+.header__mobile-menu-button {
+  @include absolute;
+  @include sizes(48px, 48px);
+  padding: 0;
+  top: 16px;
+  right: 6px;
+  color: #fff;
+  z-index: 10;
+}

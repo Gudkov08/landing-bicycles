@@ -1,0 +1,12 @@
+.footer__section {
+  @include flex(space-between, flex-end);
+  padding-right: 121px;
+
+  @include media_580 {
+    flex-wrap: wrap;
+  }
+
+  @include media_480 {
+    padding: 0;
+  }
+}

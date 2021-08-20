@@ -1,0 +1,5 @@
+.bicycles__title {
+  @include media_480 {
+    margin-bottom: 39px;
+  }
+}

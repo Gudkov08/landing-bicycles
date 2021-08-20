@@ -1,0 +1,9 @@
+.quote__caption {
+  @include media_780 {
+    text-align: center;
+  }
+
+  @include media_480 {
+    text-align: left;
+  }
+}

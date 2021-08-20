@@ -1,0 +1,8 @@
+.bicycles {
+  padding-top: 74px;
+  margin-bottom: 180px;
+
+  @include media_780 {
+    margin-bottom: 118px;
+  }
+}

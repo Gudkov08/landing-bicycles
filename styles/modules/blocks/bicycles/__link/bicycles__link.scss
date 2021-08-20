@@ -1,0 +1,17 @@
+.bicycles__link {
+  @include font(18px, 24px, 400);
+  text-align: right;
+  color: var(--colorSecondary);
+  opacity: 0.7;
+  margin-left: 40px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 18px;
+
+  &:hover {
+    font-weight: 600;
+    color: var(--colorMain);
+    opacity: .75;
+  }
+}

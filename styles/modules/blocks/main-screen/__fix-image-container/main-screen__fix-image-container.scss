@@ -1,0 +1,27 @@
+.main-screen__fix-image-container {
+  @include sizes(440px, 300px);
+  position: sticky;
+  top: 327px;
+  left: 0;
+  margin-bottom: 79px;
+  z-index: 10;
+  border-radius: 20px;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #F4F4F4;
+
+  @include media_1280 {
+    @include sizes(360px, 240px);
+  }
+
+  @include media_1080 {
+    @include sizes(300px, 190px);
+  }
+
+  @include media_480 {
+    @include sizes(234px, 160px);
+  }
+}

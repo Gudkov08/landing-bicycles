@@ -1,0 +1,16 @@
+.page__section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 120px;
+
+  @include media_1280 {
+    padding-left: 40px;
+  }
+
+  @include media_780 {
+    padding-right: 40px;
+  }
+  @include media_480 {
+    padding: 0 18px;
+  }
+}

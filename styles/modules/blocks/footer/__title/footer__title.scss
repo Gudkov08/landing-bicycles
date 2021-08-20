@@ -1,0 +1,10 @@
+.footer__title {
+  @include font(24px, 33px, 600);
+  color: var(--colorMain);
+  max-width: 229px;
+  margin: 0 0 48px;
+
+  @include media_480 {
+    margin-bottom: 39px;
+  }
+}

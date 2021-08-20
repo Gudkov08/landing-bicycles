@@ -1,0 +1,11 @@
+.bicycle-types__text {
+  margin: 14px 0 58px;
+
+  @include media_780 {
+    margin-bottom: 0;
+  }
+
+  @include media_560 {
+    margin: 0;
+  }
+}

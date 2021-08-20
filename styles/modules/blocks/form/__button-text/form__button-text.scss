@@ -1,0 +1,6 @@
+.form__button-text {
+  @include font(13px, 28px, 500);
+  text-align: right;
+  color: var(--colorMain);
+  display: none;
+}

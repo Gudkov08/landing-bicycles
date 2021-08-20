@@ -1,0 +1,85 @@
+@mixin font($fontSize, $lineHeight, $fontWeight) {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+@mixin flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin absolute {
+  position: absolute;
+  content: "";
+}
+
+//media_mixins
+@mixin media_1280 {
+  @media screen and (max-width: 1280px) {
+      @content;
+  }
+}
+@mixin media_1220 {
+  @media screen and (max-width: 1220px) {
+      @content;
+  }
+}
+@mixin media_1120 {
+  @media screen and (max-width: 1120px) {
+      @content;
+  }
+}
+@mixin media_1080 {
+  @media screen and (max-width: 1080px) {
+      @content;
+  }
+}
+@mixin media_1024 {
+  @media screen and (max-width: 1024px) {
+      @content;
+  }
+}
+@mixin media_930 {
+  @media screen and (max-width: 930px) {
+      @content;
+  }
+}
+@mixin media_867 {
+  @media screen and (max-width: 867px) {
+      @content;
+  }
+}
+@mixin media_780 {
+  @media screen and (max-width: 780px) {
+      @content;
+  }
+}
+@mixin media_660 {
+  @media screen and (max-width: 660px) {
+      @content;
+  }
+}
+@mixin media_580 {
+  @media screen and (max-width: 580px) {
+      @content;
+  }
+}
+@mixin media_560 {
+  @media screen and (max-width: 560px) {
+      @content;
+  }
+}
+@mixin media_480 {
+  @media screen and (max-width: 480px) {
+      @content;
+  }
+}

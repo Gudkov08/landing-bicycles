@@ -1,0 +1,15 @@
+.bicycle-types {
+  padding-top: 74px;
+  margin-bottom: 49px;
+  position: relative;
+
+  @include media_780 {
+    margin-top: 25px;
+  }
+
+  @include media_480 {
+    border-bottom: 1px solid #E3E3E3;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+  }
+}

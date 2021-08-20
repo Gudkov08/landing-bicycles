@@ -1,0 +1,11 @@
+.bicycles__link-item {
+  line-height: 60px;
+
+  &:first-child {
+    a {
+      @include media_780 {
+        margin-left: 0;
+      }
+    }
+  }
+}

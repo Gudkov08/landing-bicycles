@@ -1,0 +1,13 @@
+.bicycle-types__buttons {
+  grid-area: button;
+
+  @include media_780 {
+    @include absolute;
+    top: 9px;
+    right: 1px;
+  }
+
+  @include media_480 {
+    padding-top: 5px;
+  }
+}

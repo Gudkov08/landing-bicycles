@@ -1,0 +1,27 @@
+.footer__content {
+  position: relative;
+
+  &::after {
+    display: none;
+    @include sizes(38px, 38px);
+    @include absolute;
+    right: -6px;
+    bottom: -6px;
+    background: url('../icons/footer-logo.svg') no-repeat;
+  }
+
+  @include media_580 {
+    margin-bottom: 30px;
+  }
+
+  @include media_480 {
+    margin: 0;
+    width: 100%;
+  }
+
+  &::after {
+    @include media_480 {
+      display: block;
+    }
+  }
+}

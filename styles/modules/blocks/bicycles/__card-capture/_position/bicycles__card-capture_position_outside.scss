@@ -1,0 +1,5 @@
+.bicycles__card-capture_position_outside {
+  @include media_480 {
+    display: none;
+  }
+}

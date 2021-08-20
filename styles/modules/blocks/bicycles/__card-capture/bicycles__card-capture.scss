@@ -1,0 +1,6 @@
+.bicycles__card-capture {
+  @include font(18px, 22px, 600);
+  color: var(--colorMain);
+  padding-left: 7px;
+  display: inline-block;
+}

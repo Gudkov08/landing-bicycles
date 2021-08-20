@@ -1,0 +1,5 @@
+.bicycles__button {
+  @include sizes(4px, 4px);
+  border-radius: 999px;
+  background-color: #CACACA;
+}

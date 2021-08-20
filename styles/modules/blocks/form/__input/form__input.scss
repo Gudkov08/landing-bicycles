@@ -1,0 +1,29 @@
+.form__input {
+  @include sizes(360px, 50px);
+  @include font(13px, 28px, 500);
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: rgba(21, 21, 21, .7);
+  background-color: var(--backgroundFooter);
+  text-overflow: ellipsis;
+  text-align: left;
+  -webkit-appearance: none;
+  appearance: none;
+  padding-left: 19px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+
+  &:hover::placeholder {
+    color: rgba(21, 21, 21, 1);
+  }
+
+  &:focus-visible {
+    border: 1px solid #C7C7C7;
+  }
+
+  @include media_480 {
+    width: 100%;
+  }
+}

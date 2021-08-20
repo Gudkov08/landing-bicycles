@@ -1,0 +1,40 @@
+.bicycle-types__image_position_left {
+  grid-area: img1;
+  background-image: url(../images/highway.jpg);
+  position: relative;
+
+  &::before {
+    @include sizes(100px, 40px);
+    @include absolute;
+    bottom: 16px;
+    left: 0;
+    background: url(../images/rectangle.png) no-repeat;
+    z-index: 2;
+  }
+
+  &::after {
+    @include sizes(50px, 16px);
+    @include absolute;
+    bottom: 28px;
+    left: 16px;
+    background: url(../icons/highway-vector.svg) no-repeat;
+    z-index: 3;
+  }
+
+  &::before {
+    @include media_480 {
+      @include sizes(70px, 28px);
+      background-size: 100% 100%;
+      bottom: 14px;
+    }
+  }
+
+  &::after {
+    @include media_480 {
+      @include sizes(35px, 12px);
+      background-size: 100% 100%;
+      bottom: 21px;
+      left: 11px;
+    }
+  }
+}

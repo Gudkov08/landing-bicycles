@@ -1,0 +1,4 @@
+.main-screen__fix-image-line {
+  @include sizes(132px, 2px);
+  background-image: url(../images/line.png);
+}

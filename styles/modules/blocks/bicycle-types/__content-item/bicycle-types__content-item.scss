@@ -1,0 +1,29 @@
+.bicycle-types__content-item {
+  display: none;
+/*   display: grid; */
+  grid-template-areas:
+            "title   ."
+            "text    ."
+            "img1 img2";
+  grid-template-columns: minmax(200px, 650px);
+  grid-template-rows: repeat(4, auto);
+  gap: 25px 40px;
+  transition: .3s;
+
+  @include media_1220 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media_1080 {
+    column-gap: 20px;
+  }
+
+  @include media_780 {
+    grid-template-areas:
+              "title   ."
+              "img1    img1"
+              "text    text";
+    grid-template-columns: minmax(120px, 350px) minmax(120px, 350px);
+    grid-template-rows: auto auto auto;
+  }
+}
