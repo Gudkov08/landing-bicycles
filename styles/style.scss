@@ -9,6 +9,8 @@
 @import './modules/blocks/button/button.scss';
 @import './modules/blocks/button/__text/button__text.scss';
 @import './modules/blocks/link/link.scss';
+
+// theme-changer
 @import './modules/blocks/theme-changer/theme-changer.scss';
 @import './modules/blocks/theme-changer/__indicator/theme-changer__indicator.scss';
 @import './modules/blocks/theme-changer/__indicator/_switched/theme-changer__indicator_switched_sun.scss';
@@ -41,6 +43,7 @@
 @import './modules/blocks/header/__mobile-menu-button/header__mobile-menu-button.scss';
 @import './modules/blocks/header/__mobile-menu-button/_type/header__mobile-menu-button_type_open.scss';
 @import './modules/blocks/header/__mobile-menu-button/_type/header__mobile-menu-button_type_close.scss';
+@import './modules/blocks/header/__mobile-menu-button/_type/header__mobile-menu-button_type_visible.scss';
 
 // main-screen section
 @import './modules/blocks/main-screen/main-screen.scss';
@@ -104,6 +107,7 @@
 @import './modules/blocks/exercises/__title/exercises__title.scss';
 @import './modules/blocks/exercises/__text/exercises__text.scss';
 @import './modules/blocks/exercises/__links/exercises__links.scss';
+@import './modules/blocks/exercises/exercises__link-item/exercises__link-item.scss';
 @import './modules/blocks/exercises/__link/exercises__link.scss';
 @import './modules/blocks/exercises/__image/exercises__image.scss';
 
@@ -113,5 +117,3 @@
 @import './modules/blocks/footer/__title/footer__title.scss';
 @import './modules/blocks/footer/__content/footer__content.scss';
 @import './modules/blocks/footer/__copyright/footer__copyright.scss';
-
-
