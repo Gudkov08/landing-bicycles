@@ -14,6 +14,6 @@
 
 **Использованные технологии:** HTML, SCSS, Flex, Grid, JavaScript, adaptive, dark/white theme.
 
-[Ссылка на GitHub Pages.](https://gudkov08.github.io)
+[Ссылка на GitHub Pages.](https://gudkov08.github.io/bicycles)
 
 **Автор:** Гудков Андрей.
