@@ -1,0 +1,20 @@
+.page__text {
+  grid-area: text;
+  @include font(18px, 28px, 400);
+  color: var(--colorSecondary);
+  opacity: 0.7;
+  max-width: 460px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+  @include media_780 {
+    max-width: 575px;
+  }
+
+  @include media_480 {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

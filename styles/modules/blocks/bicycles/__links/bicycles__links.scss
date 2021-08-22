@@ -1,0 +1,17 @@
+.bicycles__links {
+  @include flex(flex-end, center);
+  padding-right: 120px;
+  margin: 0;
+
+  @include media_1280 {
+    padding-right: 40px;
+  }
+
+  @include media_780 {
+    padding: 0;
+  }
+
+  @include media_480 {
+    display: none;
+  }
+}

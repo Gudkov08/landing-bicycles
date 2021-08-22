@@ -1,0 +1,24 @@
+.quote__container {
+  max-width: 470px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 120px 0 80px;
+
+  @include media_1120 {
+    flex-shrink: 2;
+  }
+
+  @include media_930 {
+    width: 100%;
+    margin: 0 40px;
+  }
+
+  @include media_780 {
+    height: auto;
+  }
+
+  @include media_560 {
+    margin: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.header__links {
+  @include flex(flex-end, center);
+  min-height: 74px;
+  padding-right: 120px;
+  margin: 0;
+
+  @include media_780 {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+
+  @include media_560 {
+    padding-right: 0;
+  }
+
+  @include media_480 {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.main-screen__fix-image-capture {
+  grid-area: capture;
+  @include flex(flex-start, center);
+  padding-bottom: 35px;
+
+  @include media_867 {
+    display: none;
+  }
+}

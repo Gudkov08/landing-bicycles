@@ -1,0 +1,8 @@
+.mobile-menu__links {
+  @include flex(space-between, center);
+  margin: 17px auto 0;
+  height: auto;
+  flex-direction: column;
+  height: auto;
+  max-width: 480px; 
+}

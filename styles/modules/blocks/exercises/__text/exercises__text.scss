@@ -1,0 +1,11 @@
+.exercises__text {
+  padding-top: 37px;
+
+  @include media_780 {
+    padding-top: 0;
+  }
+
+  @include media_480 {
+    margin-bottom: -8px;
+  }
+}

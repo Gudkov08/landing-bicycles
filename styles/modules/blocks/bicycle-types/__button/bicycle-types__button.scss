@@ -1,0 +1,28 @@
+.bicycle-types__button {
+  @include sizes(50px, 50px);
+  background: #EBEBEB;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 16px;
+  position: relative;
+
+  &:hover {
+    opacity: 0.6;
+    transition: 0.3;
+  }
+
+  &:hover {
+    svg {
+      opacity: 0.75;
+    }
+  }
+
+  @include media_780 {
+    @include sizes(40px, 40px);
+  }
+
+  @include media_480 {
+    @include sizes(24px, 24px);
+    margin: 0 0 0 5px;
+  }
+}

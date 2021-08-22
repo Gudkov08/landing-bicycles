@@ -1,0 +1,6 @@
+.theme-changer {
+  @include flex(space-between, center);
+  max-width: 136px;
+  min-width: 136px;
+  padding-bottom: 7px;
+}

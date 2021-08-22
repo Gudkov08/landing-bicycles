@@ -1,0 +1,6 @@
+.header {
+  @include sizes(100%, 74px);
+  position: fixed;
+  background-color: var(--backgroundMain);
+  z-index: 1000;
+}

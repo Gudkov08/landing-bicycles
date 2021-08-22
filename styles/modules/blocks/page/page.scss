@@ -1,0 +1,8 @@
+.page {
+  display: block;
+  min-width: 320px;
+  background-color: var(--backgroundMain);
+  color: var(--colorMain);
+  quotes: "« " " »";
+  @include font(18px, 28px, 400);
+}

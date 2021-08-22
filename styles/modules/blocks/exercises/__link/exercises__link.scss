@@ -1,0 +1,9 @@
+.exercises__link {
+  @include font(18px, 40px, 600);
+  color: var(--colorMain);
+
+  @include media_480 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

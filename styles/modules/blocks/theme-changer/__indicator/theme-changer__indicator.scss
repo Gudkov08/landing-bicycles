@@ -1,0 +1,6 @@
+.theme-changer__indicator {
+  @include sizes(44px, 24px);
+  background: #FFFFFF;
+  border-radius: 9999px;
+  position: relative;
+}

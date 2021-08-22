@@ -1,0 +1,14 @@
+.bicycles {
+  margin-bottom: 254px;
+
+  @include media_780 {
+    margin-bottom: 118px;
+  }
+
+  &:before {
+    display: block;
+    content: "";
+    height: 74px;
+    margin: -74px 0 0;
+  }
+}

@@ -1,0 +1,24 @@
+.mobile-menu {
+  @include flex(space-between, center);
+  flex-direction: column;
+  @include absolute;
+  z-index: 1;
+  top: 64px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 64px);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  visibility: hidden;
+  -webkit-transition: visibility 0s linear 0s;
+  transition: visibility 0s linear 0s;
+  z-index: 9999;
+  background-color: var(--backgroundMain);
+  padding: 70px 18px 36px;
+  box-sizing: border-box;
+}
+

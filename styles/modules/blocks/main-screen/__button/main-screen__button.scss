@@ -1,0 +1,25 @@
+.main-screen__button {
+  @include font(14px, 18px, 600);
+  @include sizes(180px, 50px);
+  display: block;
+  transition: .5s ease-out;
+  background: #24B47E;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  margin-bottom: 165px;
+
+  &:hover {
+    box-shadow: inset 180px 0 0 0 #319E75;
+  }
+
+  @include media_780 {
+    @include sizes(284px, 46px);
+    justify-self: center;
+    margin-bottom: 0;
+  }
+
+  @include media_480 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}

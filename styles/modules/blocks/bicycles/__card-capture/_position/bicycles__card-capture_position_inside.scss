@@ -1,0 +1,10 @@
+.bicycles__card-capture_position_inside {
+  display: none;
+  padding: 0;
+
+  @include media_480 {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,8 @@
+.mobile-menu__link {
+  @include font(18px, 18px, 500);
+  text-align: center;
+  color: var(--colorMain);
+  margin-bottom: 32px;
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.bicycles__menu {
+  display: none;
+  @include font(11px, 14px, 600);
+  @include sizes(114px, 30px);
+  color: var(--colorMain);
+  border: 1px solid #E3E3E3;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: var(--backgroundMain);
+  padding: 0 12px;
+  appearance: none;
+  background: url('../icons/select-vector.svg') no-repeat;
+  background-position: right 9px center;
+
+  @include media_480 {
+    display: block;
+  }
+}

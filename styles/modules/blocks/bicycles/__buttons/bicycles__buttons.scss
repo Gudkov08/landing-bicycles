@@ -1,0 +1,11 @@
+.bicycles__buttons {
+  margin: auto;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+
+  @include media_780 {
+    display: flex;
+  }
+}

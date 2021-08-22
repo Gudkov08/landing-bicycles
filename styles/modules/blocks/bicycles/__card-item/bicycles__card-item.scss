@@ -1,0 +1,17 @@
+.bicycles__card-item {
+  list-style: none;
+  max-width: 380px;
+  max-height: 380px;
+
+  @include media_780 {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+  }
+
+  &:not(:first-child) {
+    @include media_780 {
+      display: none;
+    }
+  }
+}

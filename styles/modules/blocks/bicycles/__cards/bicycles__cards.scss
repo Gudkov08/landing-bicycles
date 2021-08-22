@@ -1,0 +1,21 @@
+.bicycles__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 120px 0 0;
+  column-gap: 30px;
+
+  @include media_1280 {
+    padding-right: 40px;
+  }
+
+  @include media_1120 {
+    column-gap: 15px;
+  }
+
+  @include media_780 {
+    grid-template-columns: 1fr;
+    padding: 0;
+    justify-items: center;
+    margin-bottom: 17px;
+  }
+}

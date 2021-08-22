@@ -1,0 +1,11 @@
+.header__link {
+  @include font(14px, 18px, 500);
+  text-align: right;
+  color: var(--colorMain);
+  margin-left: 34px;
+
+  @include media_560 {
+    padding-right: 0;
+    margin-left: 20px;
+  }
+}

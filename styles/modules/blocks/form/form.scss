@@ -1,0 +1,8 @@
+.form {
+  position: relative;
+  margin-bottom: 95px;
+
+  @include media_780 {
+    margin-bottom: 93px;
+  }
+}

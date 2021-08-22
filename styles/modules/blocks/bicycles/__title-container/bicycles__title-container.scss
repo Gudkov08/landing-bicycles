@@ -1,0 +1,10 @@
+.bicycles__title-container {
+  @include flex(space-between, center);
+  margin-bottom: 117px;
+
+  @include media_780 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}
