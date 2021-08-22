@@ -1,6 +1,6 @@
 .quote {
   @include flex(flex-start, flex-start);
-  margin-bottom: 43px;
+  margin-bottom: 118px;
 
   @include media_780 {
     @include flex(space-between, center);

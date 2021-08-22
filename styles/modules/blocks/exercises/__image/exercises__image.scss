@@ -1,11 +1,12 @@
 .exercises__image {
   grid-area: img;
   max-width: 580px;
-  height: 100%;
+  height: 460px;
   background: url(../images/execises.jpg) no-repeat;
   background-size: 100% 100%;
 
   @include media_780 {
     max-width: 100%;
+    height: 100%;
   }
 }
